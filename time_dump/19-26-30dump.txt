@@ -1,0 +1,56 @@
+*** sensors
+coretemp-isa-0000
+Adapter: ISA adapter
+Package id 0:  +63.0°C  (high = +86.0°C, crit = +100.0°C)
+Core 0:        +63.0°C  (high = +86.0°C, crit = +100.0°C)
+Core 1:        +60.0°C  (high = +86.0°C, crit = +100.0°C)
+
+BAT0-acpi-0
+Adapter: ACPI interface
+in0:          12.54 V  
+
+thinkpad-isa-0000
+Adapter: ISA adapter
+fan1:        1979 RPM
+
+acpitz-acpi-0
+Adapter: ACPI interface
+temp1:        +52.0°C  (crit = +97.0°C)
+
+
+*** iwconfig
+
+wlp3s0    IEEE 802.11  ESSID:"Mc11_2.4G"  
+          Mode:Managed  Frequency:2.457 GHz  Access Point: E4:BE:ED:0B:F6:D1   
+          Bit Rate=1 Mb/s   Tx-Power=15 dBm   
+          Retry short limit:7   RTS thr:off   Fragment thr:off
+          Power Management:on
+          Link Quality=53/70  Signal level=-57 dBm  
+          Rx invalid nwid:0  Rx invalid crypt:0  Rx invalid frag:0
+          Tx excessive retries:1  Invalid misc:5   Missed beacon:0
+
+
+*** free
+
+              total        used        free      shared  buff/cache   available
+Mem:        7913096     1995028     2095428      580244     3822640     5034588
+Swap:        802816           0      802816
+
+*** top
+
+top - 19:26:39 up 5 days, 20:19,  1 user,  load average: 0,70, 0,38, 0,48
+Tasks: 213 total,   1 running, 212 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 17,2 us,  7,8 sy,  0,0 ni, 75,0 id,  0,0 wa,  0,0 hi,  0,0 si,  0,0 s
+MiB Mem :   7727,6 total,   2042,6 free,   1949,1 used,   3736,0 buff/cache
+MiB Swap:    784,0 total,    784,0 free,      0,0 used.   4912,9 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+
+  54985 vlad      20   0 4639316 654908 235224 S  25,0   8,3 329:32.69
+   1123 vlad      20   0  971108  58176  39536 S  12,5   0,7   2:20.42
+ 107823 vlad      20   0 2784788 189192 130004 S  12,5   2,4   0:24.32
+    454 systemd+  20   0   25816  14688   9056 S   6,2   0,2   0:45.12
+    605 root      20   0  998348  83496  52688 S   6,2   1,1 453:04.70
+    781 vlad       9 -11 1684984  27300  22632 S   6,2   0,3 132:42.63
+   1089 vlad      20   0  402680  41136  32432 S   6,2   0,5   2:19.28
+      1 root      20   0  165652  12060   7832 S   0,0   0,2   0:09.89
+
